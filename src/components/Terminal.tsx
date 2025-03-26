@@ -28,7 +28,7 @@ export default function Terminal({ onCommand }: TerminalProps) {
         foreground: 'var(--editor-foreground)',
         cursor: 'var(--editor-foreground)',
         cursorAccent: 'var(--editor-background)',
-        selection: 'rgba(180, 215, 255, 0.3)',
+        // Remove the invalid 'selection' property
       },
     });
 
